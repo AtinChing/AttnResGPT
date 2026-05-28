@@ -1,0 +1,60 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv*
+venv/
+
+# OS
+.DS_Store
+
+# Editor / agent internals
+.claude/
+.contextualize/
+
+# W&B local sync
+wandb/
+
+# Top-level checkpoint dir
+/checkpoints/
+
+# Temporary files
+tmp/
+
+# Runtime artifacts (keep dirs via .gitkeep if desired)
+outputs/runs/*
+outputs/logs/*
+outputs/checkpoints/*
+outputs/plots/*
+!outputs/runs/.gitkeep
+!outputs/logs/.gitkeep
+!outputs/checkpoints/.gitkeep
+!outputs/plots/.gitkeep
+
+# Specific large training run outputs
+outputs/vlm_attnres_flickr30k/
+outputs/research_pipeline/artifact/
+outputs/research_pipeline/smoke_large/
+outputs/research_pipeline/tmp_full_backup/
+outputs/research_pipeline/*.log
+outputs/research_pipeline/part1_downloads/
+outputs/wandb_recovery/
+
+# W&B exports
+wandb_export_*.csv
+wandb_export_*.xls
+
+# Model / data archives and checkpoints
+*.zip
+*.pt
+*.pth
+*.ckpt
+*.safetensors
