@@ -1,6 +1,6 @@
 # AttnResGPT
 
-Clean, Colab-friendly research code for comparing standard residual connections against Attention Residuals (AttnRes) in small-to-medium GPT-style causal language models.
+Clean, Colab-friendly research code for comparing standard residual connections against Attention Residuals (AttnRes) in small-to-medium GPT-style causal language models, plus a vision-language extension that applies the same AttnRes ideas in a SigLIP-based VLM setting on Flickr30K.
 
 ## About
 
